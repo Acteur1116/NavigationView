@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+
+
+    <com.renard.navigationview.NavigationView
+        android:layout_marginTop="20dp"
+        android:id="@+id/nv"
+        android:background="@android:color/white"
+        app:activeTextColor="@android:color/black"
+        app:unactiveTextColor="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </com.renard.navigationview.NavigationView>
+
+    <com.renard.navigationview.NavigationView
+        android:layout_marginTop="100dp"
+        android:background="@android:color/white"
+        app:activeTextColor="@android:color/black"
+        android:id="@+id/nv2"
+        app:showLine ="false"
+        app:unactiveTextColor="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </com.renard.navigationview.NavigationView>
+
+    <com.renard.navigationview.NavigationView
+        android:layout_marginTop="100dp"
+        android:background="@android:color/white"
+        app:activeTextColor="@android:color/black"
+        android:id="@+id/nv3"
+        app:lineColor ="#000000"
+        app:unactiveTextColor="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </com.renard.navigationview.NavigationView>
+
+</LinearLayout>
